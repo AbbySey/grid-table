@@ -1,0 +1,23 @@
+/* CSS Document for table demostration */
+
+table{
+    border-collapse: collapse;
+    width: 10px;
+    margin: auto;
+    background-color: rgb(215, 250, 249);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+td, th{
+    border: 1.5px solid;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #5a87c1;
+}
+
+caption{
+    font-weight: bold;
+    font-size: 1.5em;
+}
